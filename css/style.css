@@ -1,0 +1,142 @@
+.navbar-brand img{
+  height: 40px;
+  width:40px;
+ position: relative;
+ bottom:12px;
+ border-radius: 100%;
+ float: left;
+ }
+ @font-face {
+    url="..\fonts/B Koodak Bold.ttf";
+    font-family: b Koodak;
+ }
+ tr,th,h2,p{
+   font-family: b koodak;
+ }
+ .header{
+     height: 100px;
+     width: 100%;
+     position: absolute;
+     top: 0px;
+     background-color: #344c94;
+            }
+  .bod{
+	 border-top-left-radius:10px;
+   }
+body{
+    font-family: Bahij Yekan !important;
+}
+   input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.createaccount{
+   height: auto;
+    position:relative;
+    top: 110px;
+    border-right:1px solid lightgray;
+    padding-top: 30px;
+}
+.text-forget{
+   position: relative;
+    top:5px;
+    right: 11%;
+    color: green;
+    float: right;
+}
+.login{
+     height: 450px;
+    position:relative;
+    top:110px;
+    border-left: 1px solid lightgray;
+    padding-top: 50px;
+    border-right:1px solid  lightgray;
+}
+.login create h1{
+    text-align: center;
+    width: 80%;
+    color: 	gray;
+    }
+textarea{
+    resize: none;
+}
+.bod ul a li{
+
+display:block;
+margin-top:10px;
+padding-top:10px;
+
+margin-left: -50px;
+border-radius:5px;
+text-align:center;
+
+height:40px;
+background-color:#344c94;
+color:#e6e6e6;
+font-size:100%;
+    text-decoration: none;
+
+			}
+            .panel-header{
+                  background-color:#344c94;
+                border-radius: 5px;
+                height: 40px;
+                color: lightgray;
+                text-align: center;
+                padding-top: 10px;
+            }
+			.bod ul a li:hover{
+				background-color:#00284d;
+
+
+			}
+
+.nav.navbar-nav li a{
+    color:lightgray;
+}
+.color-me{
+    color: lightgray;
+}
+@media screen and (min-width:767px){
+	.narrow-results{display:block}
+}
+@media screen and (max-width:766px){
+	.narrow-results{display:none}
+}
+.friendsearch ul li{
+    text-decoration: none;
+    list-style-type: none;
+   margin-left: -40px;
+    background-color: white;
+    font-size: 90%;
+    color: gray;
+
+}
+    .panel{
+     width: 100px;
+     float: left;
+    }
+.panel-body{
+    background-color: antiquewhite;
+    height: 85px;
+}
+.panel-footer{
+    border-radius: 5px;
+}
+.rightdiv{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 100%;
+    font-size: 100%;
+    }
+
+  .bod ul{
+    width: 80%;
+   }
+        </style>
